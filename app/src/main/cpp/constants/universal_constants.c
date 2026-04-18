@@ -1,0 +1,1 @@
+const double UNIVERSAL_GAS_CONSTANT = 8.314462618;

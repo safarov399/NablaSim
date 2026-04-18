@@ -21,27 +21,27 @@ class MainActivity : ComponentActivity() {
             NablaSimTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = idealGasResidue(101325.0, 0.0224, 2.0, 273.0, EosTargets.PRESSURE).toString(),
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
             }
         }
     }
+
+    external fun idealGasResidue(p: Double, v: Double, n: Double, t: Double, targetVar: Int): Double
+    companion object {
+        init {
+            System.loadLibrary("idealgassolver")
+        }
+    }
 }
+
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "$name!",
         modifier = modifier
     )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    NablaSimTheme {
-        Greeting("Android")
-    }
 }

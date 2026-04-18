@@ -1,0 +1,4 @@
+#ifndef UNIVERSAL_CONSTANTS_H
+#define UNIVERSAL_CONSTANTS_H
+extern const double UNIVERSAL_GAS_CONSTANT;
+#endif
