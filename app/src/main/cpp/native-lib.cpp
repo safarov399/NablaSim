@@ -4,7 +4,7 @@
 
 
 extern "C" JNIEXPORT jstring JNICALL
-Java_me_safarov399_idealgassolver_MainActivity_stringFromJNI(
+Java_me_safarov399_nablasim_MainActivity_stringFromJNI(
         JNIEnv *env,
         jobject /* this */) {
     char hello[] = "Hello from C++";

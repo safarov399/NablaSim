@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
     external fun idealGasResidue(p: Double, v: Double, n: Double, t: Double, targetVar: Int): Double
     companion object {
         init {
-            System.loadLibrary("chem_simluation")
+            System.loadLibrary("chem_simulation")
         }
     }
 }
@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "$name",
+        text = name,
         modifier = modifier
     )
 }
