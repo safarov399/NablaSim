@@ -1,5 +1,5 @@
 #include <jni.h>
-#include "EOS/ideal_gas.c"
+#include "EOS/ideal_gas/ideal_gas.c"
 #include "EOS/target_vars.h"
 
 

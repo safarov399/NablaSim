@@ -10,7 +10,6 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import me.safarov399.nablasim.ui.theme.NablaSimTheme
 
 class MainActivity : ComponentActivity() {
@@ -32,7 +31,7 @@ class MainActivity : ComponentActivity() {
     external fun idealGasResidue(p: Double, v: Double, n: Double, t: Double, targetVar: Int): Double
     companion object {
         init {
-            System.loadLibrary("idealgassolver")
+            System.loadLibrary("chem_simluation")
         }
     }
 }
@@ -41,7 +40,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "$name!",
+        text = "$name",
         modifier = modifier
     )
 }
