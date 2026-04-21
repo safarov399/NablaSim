@@ -1,5 +1,6 @@
 #include <math.h>
 #include "../../constants/universal_constants.h"
+#include "ideal_gas.h"
 
 double ideal_gas_residue(double P, double V, double n, double T) {
     return (P * V) - (n * UNIVERSAL_GAS_CONSTANT * T);
