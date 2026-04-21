@@ -31,8 +31,8 @@ add_library(${CMAKE_PROJECT_NAME} SHARED
     constants/universal_constants.h
     EOS/ideal_gas/ideal_gas.c
     EOS/ideal_gas/target_vars.c
-    properties/cp/cp_structures.h
     properties/cp/heat_capacity_coefficients.c
+    properties/properties_data.c
     )
 
 # Specifies libraries CMake should link to your target library. You

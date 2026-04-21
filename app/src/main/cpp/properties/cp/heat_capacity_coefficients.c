@@ -1,4 +1,4 @@
-#include "cp_structures.h"
+#include "../properties_structure.h"
 
 //GAS PHASE
 const HeatCapacityGas WATER_GAS_CP = {33.933, -8.4186e-3, 2.9906e-5, -1.7825e-8, 3.6934e-12, 100, 1500};
