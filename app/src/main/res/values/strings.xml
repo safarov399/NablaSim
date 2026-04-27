@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">NablaSim</string>
+    <string name="app_name" translatable="false">NablaSim</string>
+    <string name="pressure_pa">Pressure, Pa</string>
+    <string name="volume_m3">Volume, m³</string>
+    <string name="moles">Moles</string>
+    <string name="temperature_k">Temperature, K</string>
+    <string name="at_least_one_field_must_be_empty">At least one of the fields must be empty</string>
+    <string name="calculate">Calculate</string>
+    <string name="clear">Clear</string>
+    <string name="edit">Edit</string>
+    <string name="back">Back</string>
+    <string name="EOS">EOS</string>
 </resources>

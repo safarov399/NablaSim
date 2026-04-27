@@ -2,7 +2,7 @@
 #include "EOS/ideal_gas/ideal_gas.h"
 #include "EOS/ideal_gas/target_vars.h"
 
-JNIEXPORT jdouble JNICALL Java_me_safarov399_nablasim_ScreenSecondKt_idealGasResidue(
+JNIEXPORT jdouble JNICALL Java_me_safarov399_nablasim_IdealGasScreenKt_idealGas(
         JNIEnv *env,
         jobject thiz,
         jdouble P, jdouble V, jdouble n, jdouble T, jint target_var) {

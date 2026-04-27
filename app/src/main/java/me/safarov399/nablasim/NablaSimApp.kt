@@ -12,10 +12,12 @@ fun NablaSimApp(mainActivity: MainActivity) {
 
     when (currentScreen) {
         Screen.Main -> ScreenMain(
-            onNavigateToSecond = { currentScreen = Screen.Second }
+            onNavigateToSecond = { currentScreen = Screen.IdealGas },
+            context = mainActivity
         )
-        Screen.Second -> ScreenSecond(
-            onNavigateBack = { currentScreen = Screen.Main }
+        Screen.IdealGas -> IdealGasScreen(
+            onNavigateBack = { currentScreen = Screen.Main },
+            context = mainActivity
         )
     }
 }

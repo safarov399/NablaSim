@@ -26,8 +26,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    external fun idealGasResidue(p: Double, v: Double, n: Double, t: Double, targetVar: Int): Double
-
     companion object {
         init {
             System.loadLibrary("chem_simulation")
